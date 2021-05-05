@@ -1,6 +1,5 @@
-const styleArgument = { fontSize:'30px', color:'black'};
-//marginTop:'800'
+const styleArgument = { fontSize:'100px', color:'red' };
 const HelloCGU=()=>{
-    return <h1 style = {styleArgument}> Sign in CSIE@CGU </h1>;
+    return <h1 style = {styleArgument}> hello CGU!! </h1>;
 }
 export default HelloCGU;

@@ -1,19 +1,17 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import HelloCGU from './cgu_hello'
-import MultiButton from './cgu_multiButton'
+import MediaCard from "./profile_card";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        { HelloCGU() }
-      </div>
-      <div>
-        {MultiButton(10)}
+      <div> 
+        { MediaCard() }
       </div>
     </div>
   );
 }
 
 export default App;
+

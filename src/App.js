@@ -1,19 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import HelloCGU from './cgu_hello'
-import MultiButton from './cgu_multiButton.js'
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Todo from "./todoApp"
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <div>
-        { HelloCGU() }
-      </div>
-      <div>
-        {MultiButton(10)}
-      </div>
+      {Todo()}
     </div>
   );
 }
-
-export default App;

@@ -1,11 +1,14 @@
-import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Todo from "./todoApp"
+import './App.css';
+import DatePickers from './DatePickers'
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      {Todo()}
+      <div>
+        { DatePickers() }
+     </div>
     </div>
   );
 }
+
+export default App;
